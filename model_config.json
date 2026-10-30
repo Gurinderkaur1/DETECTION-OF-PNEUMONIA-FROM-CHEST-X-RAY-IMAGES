@@ -1,0 +1,31 @@
+{
+  "class_indices": {
+    "NORMAL": 0,
+    "PNEUMONIA": 1
+  },
+  "img_size": 128,
+  "best_model": "MobileNetV2",
+  "results": {
+    "MobileNetV2": {
+      "Test Accuracy": 0.8830128312110901,
+      "Test Loss": 0.30629146099090576,
+      "Precision": 0.8833488699179014,
+      "Recall": 0.8830128205128205,
+      "F1-Score": 0.8831595471722861
+    },
+    "ResNet50": {
+      "Test Accuracy": 0.7692307829856873,
+      "Test Loss": 0.559714138507843,
+      "Precision": 0.7957442434210527,
+      "Recall": 0.7692307692307693,
+      "F1-Score": 0.7728676894078225
+    },
+    "MobileNetV2 (Fine-Tuned)": {
+      "Test Accuracy": 0.8878205418586731,
+      "Test Loss": 0.31886768341064453,
+      "Precision": 0.8873182283096901,
+      "Recall": 0.8878205128205128,
+      "F1-Score": 0.8874144780401678
+    }
+  }
+}
